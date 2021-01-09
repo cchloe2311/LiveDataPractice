@@ -3,7 +3,15 @@ LiveData 사용 예제 repository 입니다 🤓
 ## 실행방법
 #1. 해당 프로젝트를 다운받아주세요
 
-#2. openweathermap api를 사용하는 앱이므로 /app/src/main/res/values/api_key.xml에 openweathermap api key를 넣어주세요
+#2. openweathermap api key를 설정해주세요
+
+위치: /app/src/main/res/values/api_key.xml
+```XML
+<resources>
+    <string name="OPEN_WEATHER_KEY">ENTER_YOUR_KEY</string>
+</resources>
+```
+
 
 #3. 정상실행!
 ## 설명
